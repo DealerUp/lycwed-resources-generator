@@ -22,7 +22,7 @@ This will look for an ```icon.png``` and a ```splash.png``` in the **path/to/ass
 
 By default it will generate ios and android icons. You can add manually platforms with `platforms`. Consider the following example:
 
-     $ resources-generator --platforms="ios, android, wp8, windows"
+     $ resources-generator --platforms="ios android wp8 windows"
 
 ### Model 
 
