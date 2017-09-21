@@ -1,11 +1,11 @@
 {
     "name": "lycwed-resources-generator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "icon & splash generator for cordova / ionic projects",
     "main": "index.js",
     "preferGlobal": false,
     "bin": {
-        "splashicon-generator": "./bin/resources-generator"
+        "resources-generator": "./bin/resources-generator"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
