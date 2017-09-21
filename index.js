@@ -75,7 +75,7 @@ var getPlatformIcons = function () {
     if (settings.PLATFORMS.indexOf('android') !== -1) {
         platforms.push({
             name: 'android',
-            iconsPath: 'resources/android/icons/',
+            iconsPath: 'resources/android/icon/',
             isAdded: true,
             icons: [
                 { name: 'drawable-ldpi-icon.png', size: 36, density: 'ldpi' },
@@ -92,7 +92,7 @@ var getPlatformIcons = function () {
     if (settings.PLATFORMS.indexOf('wp8') !== -1) {
         platforms.push({
             name: 'wp8',
-            iconsPath: 'resources/wp8/icons/',
+            iconsPath: 'resources/wp8/icon/',
             isAdded: true,
             icons: [
                 { name: 'ApplicationIcon.png', size: 99 },
@@ -105,7 +105,7 @@ var getPlatformIcons = function () {
     if (settings.PLATFORMS.indexOf('windows') !== -1) {
         platforms.push({
             name: 'windows',
-            iconsPath: 'resources/windows/icons/',
+            iconsPath: 'resources/windows/icon/',
             isAdded: true,
             icons: [
                 { name: 'Square150x150Logo.scale-100.png', size: 150 },
