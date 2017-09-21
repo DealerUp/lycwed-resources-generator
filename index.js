@@ -249,6 +249,7 @@ var getPlatformSplashs = function () {
 var settings = {};
 settings.ICON_FILE = path.join('resources', 'icon.png');
 settings.SPLASH_FILE = path.join('resources', 'splash.png');
+settings.PLATFORMS = ['ios', 'android'];
 
 /**
  * @var {Object} console utils
