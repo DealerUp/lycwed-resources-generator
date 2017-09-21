@@ -1,7 +1,7 @@
 {
-    "name": "splashicon-generator",
-    "version": "0.2.12",
-    "description": "Automatic icon & splash resizing for PhoneGap",
+    "name": "lycwed-splashicon-generator",
+    "version": "1.0.0",
+    "description": "icon & splash generator for cordova / ionic projects",
     "main": "index.js",
     "preferGlobal": false,
     "bin": {
@@ -12,24 +12,24 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/eberlitz/splashicon-generator.git"
+        "url": "git://github.com/lycwed/splashicon-generator.git"
     },
     "keywords": [
         "cordova",
-        "phonegap",
         "icon",
         "splash",
-        "resize"
+        "generator",
+        "ionic"
     ],
     "author": {
-        "name": "Eduardo Eidelwein Berlitz",
-        "email": "eberlitz@gmail.com"
+        "name": "Lycwed",
+        "email": "ylechevalier@gmail.com"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/eberlitz/splashicon-generator/issues"
+        "url": "https://github.com/lycwed/splashicon-generator/issues"
     },
-    "homepage": "https://github.com/eberlitz/splashicon-generator",
+    "homepage": "https://github.com/lycwed/splashicon-generator",
     "dependencies": {
         "colors": "^0.6.2",
         "imagemagick": "^0.1.3",
@@ -42,6 +42,10 @@
         {
             "name": "Luiz Pereira de Souza Filho",
             "email": "lpsouza@gmail.com"
+        },
+        {
+            "name": "Eduardo Eidelwein Berlitz",
+            "email": "eberlitz@gmail.com"
         }
     ]
 }
