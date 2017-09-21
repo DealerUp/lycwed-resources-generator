@@ -4,7 +4,7 @@ Automatic icon and splash screen resizing for any **Cordova** based applications
 
 ### Installation
 
-     $ npm install splashicon-generator -g
+     $ npm install lycwed-resources-generator -g
 
 ---
 
@@ -12,17 +12,17 @@ Automatic icon and splash screen resizing for any **Cordova** based applications
 
 Add ```icon.png``` and ```splash.png``` 'resources' folder under the root folder of your cordova project and run:
 
-     $ splashicon-generator
+     $ resources-generator
 
 You can change the default folder for the base images using the argument `imagespath`. Consider the following example:
 
-     $ splashicon-generator --imagespath="path/to/assets"
+     $ resources-generator --imagespath="path/to/assets"
 
 This will look for an ```icon.png``` and a ```splash.png``` in the **path/to/assets** folder under the root folder of your cordova project.
 
 By default it will generate ios and android icons. You can add manually platforms with `platforms`. Consider the following example:
 
-     $ splashicon-generator --platforms="ios, android, wp8, windows"
+     $ resources-generator --platforms="ios, android, wp8, windows"
 
 ### Model 
 
@@ -145,7 +145,7 @@ You can use this package under node to specify custom assets. I personally use t
 I use it with gulp like this:
 
 ```js
-var splashiconGenerator = require("splashicon-generator");
+var splashiconGenerator = require("lycwed-resources-generator");
 
 gulp.task('generate-splashicon', function(done) {
     // Generate all the default assets
