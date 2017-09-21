@@ -16,7 +16,7 @@ var getPlatformIcons = function () {
     var deferred = Q.defer();
     var platforms = [];
 
-    if (settings.PLATFORMS.indexof('ios') !== -1) {
+    if (settings.PLATFORMS.indexOf('ios') !== -1) {
         platforms.push({
             name: 'ios',
             isAdded: true,
@@ -72,7 +72,7 @@ var getPlatformIcons = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('android') !== -1) {
+    if (settings.PLATFORMS.indexOf('android') !== -1) {
         platforms.push({
             name: 'android',
             iconsPath: 'resources/android/icons/',
@@ -89,7 +89,7 @@ var getPlatformIcons = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('wp8') !== -1) {
+    if (settings.PLATFORMS.indexOf('wp8') !== -1) {
         platforms.push({
             name: 'wp8',
             iconsPath: 'resources/wp8/icons/',
@@ -102,7 +102,7 @@ var getPlatformIcons = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('windows') !== -1) {
+    if (settings.PLATFORMS.indexOf('windows') !== -1) {
         platforms.push({
             name: 'windows',
             iconsPath: 'resources/windows/icons/',
@@ -124,7 +124,7 @@ var getPlatformIcons = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('store') !== -1) {
+    if (settings.PLATFORMS.indexOf('store') !== -1) {
         platforms.push({
             name: 'store',
             iconsPath: 'store/icons/',
@@ -152,7 +152,7 @@ var getPlatformSplashs = function () {
     var platforms = [];
 
     //ok
-    if (settings.PLATFORMS.indexof('ios') !== -1) {
+    if (settings.PLATFORMS.indexOf('ios') !== -1) {
         platforms.push({
             name: 'ios',
             isAdded: true,
@@ -175,7 +175,7 @@ var getPlatformSplashs = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('android') !== -1) {
+    if (settings.PLATFORMS.indexOf('android') !== -1) {
         platforms.push({
             name: 'android',
             isAdded: true,
@@ -199,7 +199,7 @@ var getPlatformSplashs = function () {
 
     //ok
     // https://msdn.microsoft.com/en-us/library/windows/apps/ff769511(v=vs.105).aspx
-    if (settings.PLATFORMS.indexof('wp8') !== -1) {
+    if (settings.PLATFORMS.indexOf('wp8') !== -1) {
         platforms.push({
             name: 'wp8',
             isAdded: true,
@@ -214,7 +214,7 @@ var getPlatformSplashs = function () {
     }
 
     //ok
-    if (settings.PLATFORMS.indexof('windows') !== -1) {
+    if (settings.PLATFORMS.indexOf('windows') !== -1) {
         platforms.push({
             name: 'windows',
             isAdded: true,
@@ -227,7 +227,7 @@ var getPlatformSplashs = function () {
         });
     }
 
-    if (settings.PLATFORMS.indexof('store') !== -1) {
+    if (settings.PLATFORMS.indexOf('store') !== -1) {
         platforms.push({
             name: 'store',
             isAdded: true,
